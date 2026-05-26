@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template, request
 
 ## WSGI(web server gateway interface) application)
 app=Flask(__name__)
